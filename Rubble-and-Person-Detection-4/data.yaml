@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['Person', 'Person in Rubble', 'Rubble']
+
+roboflow:
+  workspace: senior-project-r4kzm
+  project: rubble-and-person-detection
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/senior-project-r4kzm/rubble-and-person-detection/dataset/4
