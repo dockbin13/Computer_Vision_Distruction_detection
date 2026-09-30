@@ -6,13 +6,16 @@ def main():
     model = YOLO("yolo11n.pt")
 
     results = model.train(
-        data=r"D:\Computer_Vision_Combined\Fire--1\data.yaml",
-        epochs=100,
+
+        data=r"D:\Computer Vision\Fire--1\data.yaml",
+        epochs=150,
         imgsz=640,
         batch=8,
         device=0,
-        optimizer="AdamW",
-        lr0=0.001
+        workers=4,
+        project="disaster_cv",
+        name="disaster_detection",
+        patience=20
     )
 
 if __name__ == "__main__":
