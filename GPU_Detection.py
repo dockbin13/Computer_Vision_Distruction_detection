@@ -4,7 +4,7 @@ import os
 import cv2 as cv
 import time
 
-YOLOn26 = YOLO("yolon26.pt")
+YOLOn26 = YOLO("yolo26n.pt")
 Rubble_Model = YOLO("Rubble.pt")
 thermal_Cam = YOLO("Thermal.pt")
 
