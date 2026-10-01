@@ -1,11 +1,15 @@
 GPU Detection : To run the code on PC 
 RaspBerryPi_Detection : To run the code on Rasp
 
+
+
+
+
+
 ---> Rubble : Classes 30, Indices = [0...30],
 
 Class Names :
-MODEL CLASSES
-=============
+Rubble Model :
 
 The model is trained to detect the following 30 classes:
 
@@ -43,13 +47,26 @@ The model is trained to detect the following 30 classes:
 TOTAL CLASSES: 30
 
 
+
+
+
+
+
+
+
 ---> Thermal : Classes 1, Indices = [0], Class_Names = "Human-9DiW"
+
+
+
+
+
+
+
 
 ---> yolo26n : Classes 80, Indices = [0...79], 
 
-Class Names:
-YOLO26n MODEL CLASSES
-=====================
+Class Names : 
+YOLO26n Model: 
 
 The YOLO26n model (COCO dataset) is trained to detect the following 80 classes:
 
